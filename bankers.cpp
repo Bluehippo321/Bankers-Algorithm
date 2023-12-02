@@ -102,7 +102,7 @@ int main(){
     for(i = 0; i < n; i++){
         if(f[i] == 0) {
             flag = 0;
-            std::cout << "The sequence is NOT safe";
+            std::cout << "The sequence is NOT safe" << std::endl;
             break;
         }
     }
