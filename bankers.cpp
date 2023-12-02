@@ -5,10 +5,14 @@
 
 int main(){
 
+    int i, j, k, y; // used for for loops
     int n, m;
+
+    /*
+        Inside can be edited to change given information for different sequence
+    */
     n = 5; // Amount of processes in example
     m = 3; // Amount of types of resources (A, B, C)
-    int i, j, k, y; // used for for loops
 
     // Allocation matrix, defines allocation for each process
     int allocation[5][3] = { 
@@ -31,6 +35,10 @@ int main(){
     // Available resources
     int available[3] = {3, 3, 2};
 
+    /*
+        Inside can be edited to change given information for different sequence
+    */
+    
     // tracks progress of processes' completion
     int f[n];
 
